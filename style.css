@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+ 
+    /* border: 2px solid black; */
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #d9a7c7, #fffcdc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+   
+}
+.mini-box
+{
+padding: 40px;
+background-color: white;
+ height: 54vh;
+ width: 35%;
+text-align: left;
+}
+h1{
+    font-size: 27px;
+    font-weight:700 ;
+    margin-bottom: 18px;
+}
+.mini-box img{
+    width: 27%;
+    margin-bottom: 15px;
+}
+.mini-box2
+{
+  
+    background-color: white;
+   height: 7vh;
+   width: 35%;
+   margin: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+
+}
+input{
+    height: 30px;
+    width:90%;
+border: none;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 18px;
+    
+}
+input::placeholder{
+    font-size: 15px;}
+
+    .mini-box p{
+        font-size: 15px;
+        color: black;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .mini-box a{
+        font-size: 15px;
+        font-weight: 500;
+        color:#2772d4fc;
+        text-decoration: none;
+
+
+    }
+    button{
+        height: 5vh;
+        width: 30%;
+        border: none;
+        background-color: #005DA6;
+        font-size: 15px;
+        font-weight: 700;
+        color: white;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+    .mini-box2 h2{
+        font-size: 18px;
+        font-weight: 200;
+        margin-left: 35px;
+    }
+
+    .mini-box2 a i {
+        font-size: 25px;
+        margin-left: 25px;
+        transform: rotate(20deg);
+        
+    }
+    @media (max-width:768px),(max-height:366px){
+                .container{
+            background:none
+        }
+        .mini-box{
+            height: 50vh;
+            width: 100%;
+        }
+        .mini-box2
+        {
+          
+            background-color: white;
+           height: 7vh;
+           width: 80%;
+           margin: 20px;
+           display: flex;
+           align-items: center;
+           justify-content: flex-start;
+        border: gray 1px solid ;
+        }
+    }
