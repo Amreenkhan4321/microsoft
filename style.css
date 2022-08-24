@@ -27,12 +27,12 @@ background-color: white;
 text-align: left;
 }
 h1{
-    font-size: 27px;
+    font-size: 30px;
     font-weight:700 ;
     margin-bottom: 18px;
 }
 .mini-box img{
-    width: 27%;
+    width: 30%;
     margin-bottom: 15px;
 }
 .mini-box2
@@ -56,16 +56,16 @@ border: none;
     
 }
 input::placeholder{
-    font-size: 15px;}
+    font-size: 16px;}
 
     .mini-box p{
-        font-size: 15px;
+        font-size: 18px;
         color: black;
         font-weight: 500;
         margin-bottom: 10px;
     }
     .mini-box a{
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 500;
         color:#2772d4fc;
         text-decoration: none;
@@ -73,11 +73,11 @@ input::placeholder{
 
     }
     button{
-        height: 5vh;
-        width: 30%;
+        height: 7vh;
+        width: 40%;
         border: none;
         background-color: #005DA6;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 700;
         color: white;
         margin-left: 250px;
@@ -95,9 +95,18 @@ input::placeholder{
         transform: rotate(20deg);
         
     }
-    @media (max-width:768px),(max-height:366px){
+    @media (max-width:768px){
                 .container{
             background:none
+        }
+        h1{
+            font-size: 30px;
+            font-weight:700 ;
+            margin-bottom: 18px;
+        }
+        .mini-box img{
+            width: 30%;
+            margin-bottom: 15px;
         }
         .mini-box{
             height: 50vh;
@@ -114,5 +123,30 @@ input::placeholder{
            align-items: center;
            justify-content: flex-start;
         border: gray 1px solid ;
+        }
+        .mini-box p{
+            font-size: 16px;
+            color: black;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .mini-box a{
+            font-size: 16px;
+            font-weight: 500;
+            color:#2772d4fc;
+            text-decoration: none;
+    
+    
+        }
+        button{
+            height: 6vh;
+            width: 40%;
+            border: none;
+            background-color: #005DA6;
+            font-size: 15px;
+            font-weight: 700;
+            color: white;
+            margin-left: 250px;
+            margin-top: 20px;
         }
     }
